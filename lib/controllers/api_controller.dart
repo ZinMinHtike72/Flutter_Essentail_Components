@@ -91,24 +91,3 @@ class Api_Services {
     return jsonData;
   }
 }
-
-class Constant_Api {
-  static String baseUrl = "http://192.168.100.8:8003/api/admin/";
-  // static String baseUrl= "http://192.168.2.123:8003/api/admin/";
-  static String registerApi = "register";
-  static String logoutApi = "logout";
-  static String loginApi = 'login';
-  static String brandsApi = 'brands';
-  static String profile = 'profile';
-  static String changePassword = 'change/password';
-  static String category = 'categories';
-  static String business = 'businesses';
-  static String count = 'counts';
-  static String product = 'products';
-  static String productVendor = 'vendor-lists';
-  static String activeVendorList = 'active/vendor-lists';
-  static String inActiveVendorList = 'inactive/vendor-lists';
-  static String activeVendorProcess = 'active/vendor/process';
-  static String inactiveVendorProcess = 'inactive/vendor/process';
-  static String rentLists = 'rent-lists';
-}
